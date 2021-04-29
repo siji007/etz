@@ -7,6 +7,9 @@ nav{
     background: #91eb83;
     margin-bottom: 2px solid grey;
 }
+#navDiv{
+    border-bottom: 1px solid white;
+}
 .nav-links{
     display: flex;
     list-style: none;

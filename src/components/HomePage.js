@@ -11,15 +11,15 @@ const HomePage =() =>{
     }
     return(
         <Fragment>
-            <div className="border-b-2">
+            <div id="navDiv" className="">
                 <nav className="">
                     <div class="harmburger" onClick={clickham}>
                         <div class="line"></div>
                         <div class="line"></div>
                         <div class="line"></div>
                     </div>
-                    <ul class="nav-links">
-                        <li><a href="#">Api Reference</a></li>
+                    <ul class="nav-links text-lg">
+                        <li className=""><a href="#">Api Reference</a></li>
                         <li><a href="#">Pay</a></li>
                         <li><a href="#">Test</a></li>               
                     </ul>
@@ -38,7 +38,7 @@ const HomePage =() =>{
                         <div class="max-w-sm rounded overflow-hidden shadow-lg">
                             <img class="w-full" src="../img/laptop.jpg" alt="Sunset in the mountains"/>
                             <div class="px-6 py-4">
-                                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                                <div class="font-bold text-xl mb-2">Easy flow</div>
                                 <p class="text-gray-700 text-base">
                                 Create a easy access to get probems solved
                                 </p>
@@ -51,9 +51,9 @@ const HomePage =() =>{
                         <div class="max-w-sm rounded overflow-hidden shadow-lg">
                             <img class="w-full" src="../img/laptop1.jpg" alt="Sunset in the mountains"/>
                             <div class="px-6 py-4">
-                                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                                <div class="font-bold text-xl mb-2">Time</div>
                                 <p class="text-gray-700 text-base">
-                                Saves time 
+                                Saves time. 
                                 </p>
                             </div>
                             
@@ -64,9 +64,9 @@ const HomePage =() =>{
                         <div class="max-w-sm rounded overflow-hidden shadow-lg">
                             <img class="w-full" src="../img/laptop2.jpg" alt="Sunset in the mountains"/>
                             <div class="px-6 py-4">
-                                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                                <p class="text-gray-700 text-base">
-                                Brings increase in productivity
+                                <div class="font-bold text-xl mb-2">Productivity</div>
+                                <p class="text-gray-700 text-base text-lg">
+                                Brings increase in productivity.
                                 </p>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ const HomePage =() =>{
                 </div>
             </div>
             <div className="footer">
-                <h1>Copyright 2021</h1>
+                <h1 className="text-center mt-8 text-lg py-8">&copy;Copyright 2021</h1>
             </div>
         </Fragment>
     )
