@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height:10vh;
+    background: #91eb83;
+    margin-bottom: 2px solid grey;
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+    float:right;
+    height:100%;
+    margin-top: 3vh;
+}
+.nav-links li a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+body{
+    font-family: sans-serif;
+}
+   
+.landing{
+    height: 30vh;
+    display: flex;
+}
+#introDiv{
+    
+}
+#guideDiv{
+    background-color: #91eb83;
+}
+#guideHeader{
+    font-size: 70px;
+    font:bold;
+    text-align: center;
+    color: white;
+}
+#guideIntroText{
+    font:bold;
+    color: white;
+}
+#getStartedBtn{
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 24px;
+    font:bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 70px;
+
+}
+#expectText{
+    font-size: 50px;
+    font:bold;
+    
+}
+
+
+
+@media(max-width:990px){
+    /* body{
+        display: none;
+    } */
+    .harmburger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 3%;
+        z-index: 2;
+        /* transform: translate(-5%,-50%); */
+    }
+    .line{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+    .nav{
+        position: relative;
+        
+    }
+    .nav-links{
+        position: fixed;
+        margin-top: 0px;
+        max-height:100%;
+        width:100%;
+        flex-direction: column;
+        background: #91eb83;
+        align-items: center;
+        clip-path: circle(10px at 90% -10%);
+        -webkit-clip-path:circle(10px at 90% -10%);
+        transition: all 1s ease-out;
+    }
+    .nav-links.open{
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1340px at 90% -10%);
+    }
+    .landing{
+        flex-direction: column;
+    }
+    #guideHeader{
+        font-size: 45px;
+        font:bold;
+        text-align: center;
+        color: white;
+    }
+    #guideIntroText{
+        font:bold;
+        font-size: 20px;
+        color: white;
+    }
+    #getStartedBtn{
+        border: 1px solid white;
+        border-radius: 10px;
+        font-size: 19px;
+        font:bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 140px;
+    }
+    #expectText{
+        font-size: 40px;
+    }
+    /* .expectDiv2{
+        margin-top: 20px;
+    } */
+}
