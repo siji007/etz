@@ -2,14 +2,17 @@ import React,{Fragment} from 'react'
 import { Link } from 'react-router-dom'
 import '../HomePage.css'
 const HomePage =() =>{
+
     
+
     return(
         <Fragment>
             
-            <div id="introDiv" className="container-fluid py-4" id="guideDiv">
+            
+            <div id="introDiv" className="container-fluid py-4 mt-0" id="guideDiv">
                 <h1 className="mt-5" id="guideHeader">Developers Guide</h1>
                 <p id="guideIntroText" className="text-center text-2xl mt-3">Get good resources for api documentation on the built applications </p>
-                <button id="getStartedBtn" className="d-block mr-auto ml-auto btn-outline-success mt-4">Get Started</button>
+                <button id="getStartedBtn" className="d-block mr-auto ml-auto btn-outline-success mt-4"><Link style={{textDecoration:'none'}} to="/gettingStarted">Get Started</Link></button>
             </div>
 
             <div>
@@ -24,7 +27,6 @@ const HomePage =() =>{
                                 Create a easy access to get probems solved
                                 </p>
                             </div>
-                            
                         </div>
                     </div>
 

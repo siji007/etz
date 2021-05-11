@@ -1,6 +1,7 @@
 import React,{Fragment} from 'react'
 import { Link } from 'react-router-dom'
-import '../HomePage.css'
+import "../NavBar.css"
+// import '../HomePage.css'
 const NavBar = () =>{
     function clickham(){
         let hamburger = document.querySelector(".harmburger");
@@ -9,6 +10,8 @@ const NavBar = () =>{
             navLinks.classList.toggle("open")
         })
     }
+
+   
     return(
         <Fragment>
             <div id="navDiv" className="">
@@ -25,6 +28,24 @@ const NavBar = () =>{
                     </ul>
                 </nav>
             </div>
+
+            <input style={{display:'none'}} type="checkbox" id="check"/>
+            <label for="check">
+                <i className="fas fa-bars" id="btn">P</i>
+                <i className="fas fa-times" id="cancel">X</i>
+            </label>
+
+            <div className="sidebar pr-3">
+                <header className="mt-12 text-center font-bold">Guides</header>
+                <ul>
+                <li><a href="">Cooperate Pay</a></li>
+                <li className=""><a href="">PocketMoni</a></li>
+                
+                <li><a href="">Payoutlet</a></li>
+                <li><a href=""></a></li>
+                </ul>
+            </div>
+            
         </Fragment>
     )
 }

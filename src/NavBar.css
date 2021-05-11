@@ -1,0 +1,102 @@
+li{
+    list-style: none;
+    text-decoration: none;
+  }
+  .sidebar{
+    top: 88px;
+    z-index: 1;
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    border: 1px solid white;
+    background-color: #91eb83;
+    transition: all .5s ease;
+  }
+  .sidebar header{
+    /* font-size: 28px; */
+    color: white;
+    margin-bottom: 30px;
+  }
+  .sidebar ul a{
+    display: block;
+    line-height: 79px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    transition: .4s;
+  }
+  ul li a{
+    padding-left: 60px;
+  }
+  label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+  }
+  label #btn{
+    left: 85%;
+    top: 80%;
+    color: #91eb83;
+    font-size: 35px;
+    /* padding: 6px 12px; */
+    transition: all .5s;
+    display: none;
+  }
+  label #cancel{
+    left: 85%;
+    top: 80%;
+    font-size: 60px;
+    z-index: 1111;
+    padding: 4px;
+    color:#91eb83;
+    padding: 4px 9px;
+  }
+  #check{
+    display: none;
+  }
+  #check:checked ~ .sidebar{
+    left: 0;
+  }
+  #check:checked ~ label #btn{
+    left: 85%;
+    opacity: 0;
+    pointer-events: none;
+  }
+  #check:checked ~ label #cancel{
+    left: 85%;
+  }
+  section{
+    height: 100%;
+    margin-left: 90px;
+  }
+  #textInput{
+    margin-top: 11px;
+    border: none;
+  }
+  #textInput:focus{
+    outline: none;
+  }
+  #notification{
+    margin-top: 11px;
+  }
+  /* img{
+    border-radius: 50%;
+    width: 70px;
+  } */
+  #avatar{
+    border-radius: 30%;
+    margin-top: 11px;
+    width: 50px;
+  }
+  #adminText{
+    margin-top: 11px;
+  }
+  #showRoute{
+    margin-top:80px
+  }
+  
+
+
+

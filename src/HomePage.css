@@ -2,13 +2,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* .sidebar{
+    display: none;
+} */
 nav{
     height:10vh;
     background: #91eb83;
-    margin-bottom: 2px solid grey;
+    /* margin-bottom: 2px solid grey; */
 }
 #navDiv{
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
 .nav-links{
     display: flex;
@@ -38,6 +41,7 @@ body{
 }
 #guideDiv{
     background-color: #91eb83;
+    /* margin-top: 149px; */
 }
 #guideHeader{
     font-size: 70px;
@@ -64,10 +68,14 @@ body{
 #expectText{
     font-size: 50px;
     font:bold;
+    color: #91eb83;
     
 }
 
-
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+  }
 
 @media(max-width:990px){
     /* body{
