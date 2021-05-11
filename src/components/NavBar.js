@@ -29,7 +29,7 @@ const NavBar = () =>{
                 </nav>
             </div>
 
-            <input style={{display:'none'}} type="checkbox" id="check"/>
+            {/* <input style={{display:'none'}} type="checkbox" id="check"/>
             <label id="labelSec" for="check">
                 <i className="fas fa-bars" id="btn">P</i>
                 <i className="fas fa-times" id="cancel">X</i>
@@ -45,7 +45,7 @@ const NavBar = () =>{
                 <li><a href="">Payoutlet</a></li>
                 <li><a href=""></a></li>
                 </ul>
-            </div>
+            </div> */}
             
         </Fragment>
     )
