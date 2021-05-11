@@ -14,6 +14,9 @@ const GettingStarted = () => {
     return(
         <Fragment>
             <Sidebar/>
+            <div className="container mt-16">
+                <h1>Check me out mate!!!</h1>
+            </div>
         </Fragment>
     )
 }
