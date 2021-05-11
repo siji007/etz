@@ -9,7 +9,7 @@ const HomePage =() =>{
             
             <div id="introDiv" className="container-fluid py-4 mt-16" id="guideDiv">
                 <h1 className="mt-5" id="guideHeader">Developers Guide</h1>
-                <p id="guideIntroText" className="text-center text-2xl mt-3">Get good resources for api documentation on the built applications </p>
+                <p id="guideIntroText" className="text-center text-2xl mt-3">Get the available resources on API documentation for Etranzact applications </p>
                 <button id="getStartedBtn" className="d-block mr-auto ml-auto btn-outline-success mt-4"><Link style={{textDecoration:'none'}} to="/gettingStarted">Get Started</Link></button>
             </div>
 
