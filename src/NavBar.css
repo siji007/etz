@@ -9,7 +9,7 @@ li{
     left: -250px;
     width: 250px;
     height: 100%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     background-color: #91eb83;
     transition: all .5s ease;
   }
@@ -96,19 +96,12 @@ li{
   #showRoute{
     margin-top:80px
   }
+  #labelSec{
+      margin-bottom: -120px;
+  }
   
   @media(max-width:990px){
-    .sidebar{
-        top: ;
-        z-index: 1;
-        position: fixed;
-        left: -250px;
-        width: 250px;
-        height: 100%;
-        border: 1px solid white;
-        background-color: #91eb83;
-        transition: all .5s ease;
-      }
+    
   }
 
 

@@ -30,10 +30,11 @@ const NavBar = () =>{
             </div>
 
             <input style={{display:'none'}} type="checkbox" id="check"/>
-            <label for="check">
+            <label id="labelSec" for="check">
                 <i className="fas fa-bars" id="btn">P</i>
                 <i className="fas fa-times" id="cancel">X</i>
             </label>
+            
 
             <div className="sidebar pr-3">
                 <header className="mt-12 text-center font-bold">Guides</header>
